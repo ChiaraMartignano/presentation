@@ -4,130 +4,79 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
-
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
-
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<title>Chiara Martignano's personal website</title>
+		<!-- <a href="https://www.flaticon.com/free-icons/scholar" title="scholar icons">Scholar icons created by meaicon - Flaticon</a> -->
+		<!-- <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a> -->
+		<!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a> -->
+		<link rel="stylesheet" href="css/main.scss">
 	</head>
 	<body>
-		<div class="reveal">
-			<div class="slides">
-				<!-- 1: titolo -->
-				<section>
-					<h1>L'edizione</h1>
-					<h3>Una panoramica delle soluzioni esistenti e dei requisiti essenziali</h2>
-					<p>Chiara Martignano</p>
-
-				</section>
-
-				<!-- 2: Introduzione e indice -->
-				<section>
-					<h4>Argomenti</h4>
-					<ul>
-						<li>Attuale panorama degli strumenti disponibili</li>
-						<li>Piccolo censimento delle edizioni digitali di testi letterari in italiano antico</li>
-						<li>Proposta di buone pratiche e dei requisiti essenziali</li>
-					</ul>
-				</section>
-
-				<!-- 3: Produzione vs pubblicazione -->
-				<section>
-					<section>
-						<h4>1. sistemi di edizione vs sistemi di produzione</h4>
-					</section>
-					<section>
-						<img src="./img/Schema_Leonardi.png" alt="Lino Leonardi's scheme for digital and traditional philology"></img>
-					</section>
-					<section>
-						<img src="./img/Schema_sistemi_di_edizione_1.png" alt="Lino Leonardi's scheme reviseted to show how tools for publishing digital editions work"></img>
-					</section>						
-					<section>
-						<p>Esempio: <a href="https://dcl.ils.indiana.edu/petrarchive/index.php">Petrarchive</a>, <a href="https://dcl.ils.indiana.edu/teibp/">TEI Boilerplate</a></p>
-						<img src="./img/petrarchive_edition.png" alt="Screenshot of the digital edition 'Petrarchive'"></img>
-					</section>
-					<section>	
-						<img src="./img/Schema_sistemi_di_edizione_2.png" alt="Lino Leonardi's scheme reviseted to show how tools for digital editing work"></img>
-					</section>
-					<section>
-						<img src="./img/Schema_sistemi_di_edizione_3.png" alt="Lino Leonardi's scheme reviseted to show how tools for authoring and publishing digital editions work"></img>
-					</section>					
-					<section>
-						<p>Esempi di sistemi per l'elaborazione e la pubblicazione di edizioni digitali</p>
-						<ul>
-							<li><a href="https://textualcommunities.org/app/home">Textual Communities</a></li>
-							<li><a href="https://www.elaborate.huygens.knaw.nl/login">eLaborate</a></li>
-							<li><a href="https://textgrid.de/en/web/guest">Text Grid</a></li>
-						</ul>
-					</section>
-				</section>
-
-				<!-- 4. ad hoc vs generici -->
-				<section>
-					<section>
-						<h4>2. sistemi ad hoc vs sistemi generici</h4>
-					</section>
-				</section>
-
-				<!-- 5. distributed vs self-hosted -->
-				<section>
-					<section>
-						<h4>3. distributed vs self-hosted</h4>
-					</section>
-				</section>
-
-				<!-- 6. printed-page paradigm vs visualizzazioni alternative -->
-				<section>
-					<section>
-						<h4>4. printed-page paradigm vs visualizzazioni alternative</h4>
-					</section>
-					<section>
-						<p>Esempio: 2^ edizione della <a href="https://www.dantecommedia.it/">Commedia</a> a cura di Prue Shaw</p>
-						<img src="./img/commedia_shaw_Vbase.png" alt="Screenshot of the 2nd digital edition of the 'Commedia'"></img>
-					</section>
-				</section>
-
-				<!-- 7. TEI vs non-TEI -->
-				<section>
-					<section>
-						<h4>5. TEI vs non-TEI</h4>
-					</section>
-					<section>
-						<p>Strumenti di pubblicazione creati per documenti TEI o TEI-compatible </p>
-						<ul>
-							<li><a href="http://evt.labcd.unipi.it/">Edition Visualization Technology</a></li>
-							<li><a href="https://teipublisher.com/index.html">TEI Publisher</a></li>
-							<li><a href="https://dcl.ils.indiana.edu/teibp/">TEI Boilerplate</a></li>
-							<li><a href="http://teic.github.io/CETEIcean/Balisage-CETEIcean.html">CETEIcean</a></li>
-							<li><a href="http://teicat.huma-num.fr/">TEI Critical Edition Toolbox</a></li>
-							<li><a href="http://exist-db.org/exist/apps/homepage/index.html">eXist-db</a></li>
-							<li><a href="https://tapasproject.org/">TAPAS project</a></li>
-							<li><a href="https://github.com/TEIC/Stylesheets">TEI-C Stylesheets</a></li>
-							<li><a href="https://oxgarage.tei-c.org/">OxGarage</a></li>
-						</ul>
-					</section>
-				</section>
-			
+		<!-- <div id="navbar">
+			<h1>Chiara Martignano</h1>
+			<nav>
+				<a href="#CV">CV</a>
+				<a href="#portfolio">Portfolio</a>
+				<a href="#news">News & Updates</a>
+			</nav>
+		</div> -->
+		<section id="main_section">
+			<div id="bio">
+				<div>
+					Hi! I'm Chiara Martignano, research fellow at the University Ca' Foscari of Venice and a
+					<!-- Element to contain animated typing -->
+					<div id="typed-strings">
+						<p>DH researcher.</p>
+						<p>DH consultant.</p>
+						<p>DH research facilitator.</p>
+					</div>
+					<span id="typed"></span>
+				</div>
+				<div>
+					I have a PhD in Textual Criticism and Philology and a Master's Degree in Digital Humanities.
+					My research focuses on Digital Scholarly Editing and the development of Digital Solutions for research in the Humanities.
+				</div>
 			</div>
-		</div>
+			<div id="contacts">
+				<div>
+					<img/>
+					chiaramartignano[at]gmail.com
+				</div>
+				<div>
+					<img/>
+					Based in Rome, Italy.
+				</div>
+				<a href="https://orcid.org/0000-0002-8984-9574" target="_blank" aria-label="ORCID">
+					<img src="./img/icons/ORCID.png" alt="ORCID logo"/>
+				</a>
+				<a href="https://scholar.google.it/citations?user=Hzp1CV4AAAAJ&hl=it" target="_blank" aria-label="Google Scholar">
+					<img src="./img/icons/student.png" alt="google scholar logo"/>
+				</a>
+				<a href="https://www.linkedin.com/in/chiara-martignano/?locale=en_US" target="_blank" aria-label="LinkedIn">
+					<img src="./img/icons/linkedin.png" alt="LinkedIn logo"/>
+				</a>
+				<a href="https://github.com/ChiaraMartignano" target="_blank" aria-label="GitHub">
+					<img src="./img/icons/github.png" alt="GitHub logo"/>
+				</a>
+			</div>
+		</section>
+		<!-- <script src="dist/reveal.js"></script> -->
+		<!-- <section id="CV"></section>
+		<section id="portfolio"></section>
+		<section id="news"></section>
+		<footer></footer> -->
+		  
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
+			<!-- Load library from the CDN -->
+			<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+		
+			<!-- Setup and start animation! -->
+			<script>
+				var typed = new Typed('#typed', {
+					stringsElement: '#typed-strings',
+					typeSpeed: 70,
+					loop: true
+				});
+			</script>
+		</body>
 	</body>
 </html>

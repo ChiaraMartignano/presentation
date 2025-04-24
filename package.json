@@ -1,0 +1,30 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Chiara Martignano's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiaraMartignano/presentation.git"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "digital",
+    "humanities",
+    "chiara",
+    "martignano"
+  ],
+  "author": "Chiara Martignano (chiaramartignano@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChiaraMartignano/presentation/issues"
+  },
+  "homepage": "https://github.com/ChiaraMartignano/presentation#readme",
+  "dependencies": {
+    "typed.js": "^2.1.0"
+  }
+}
