@@ -10,6 +10,25 @@ body {
 	padding: 0;
 }
 
+#navbar {
+	width: 100%;
+	margin: 0;
+	padding: 20px;
+	position: fixed;
+	background-color: white;
+	top: 0;
+	left: 0;
+	> h1 {
+		display: inline-block;
+	}
+	nav {
+		display: inline-block;
+		> a {
+			display: inline-block;
+		}
+	}
+}
+
 section {
 	margin: 0;
 	border: 0;
@@ -45,9 +64,6 @@ section {
 	flex-direction: column;
 	padding-left: 3em;
 	justify-content: center;
-	> a {
-
-	}
 }
 
 .cards {
@@ -61,12 +77,28 @@ section {
 	padding: 20px;
 	border-radius: 5px;
 	-webkit-box-shadow: 4px 4px 8px 2px #595959; 
-box-shadow: 4px 4px 8px 2px #595959;
+	box-shadow: 4px 4px 8px 2px #595959;
 	margin: 1em;
 	max-width: 400px;
 }
 
 .workplace-logo {
-	/* float: left; */
 	display: block;
+}
+
+.icon-link {
+  display: inline-block;
+	align-content: center;
+	> img {
+		padding: 5px;
+	};
+  transition: 0.3s;
+	
+}
+
+.icon-link > img:hover {
+  background-color: #45ec98;
+	-webkit-box-shadow: 4px 4px 8px 2px #595959; 
+	box-shadow: 4px 4px 8px 2px #595959;
+	border-radius: 50%;
 }
