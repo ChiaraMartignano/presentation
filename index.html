@@ -11,30 +11,27 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<!-- <div id="navbar">
+		<div id="navbar">
 			<h1>Chiara Martignano</h1>
 			<nav>
 				<a href="#CV">CV</a>
 				<a href="#portfolio">Portfolio</a>
 				<a href="#news">News & Updates</a>
 			</nav>
-		</div> -->
+		</div>
 		<section id="main_section">
 			<div id="bio">
 				<div>
-					Hi! I'm Chiara Martignano, research fellow at the University Ca' Foscari of Venice.
-				<br>
-					I have a PhD in Textual Criticism and Philology and a Master's Degree in Digital Humanities.
-					<br>
-					My research focuses on
 					<!-- Element to contain animated typing -->
 					<div id="typed-strings">
-						<p>Digital Italian and Romance Philology.</p>
-						<p>Software Solutions for Scholarly Editing.</p>
-						<p>cataloguing Digital Tools for the Humanities.</p>
-						<p>Digital Scholarly Editing.</p>
+						<p>Hi! I'm Chiara Martignano,<br>research fellow at the University Ca' Foscari of Venice.</p>
 					</div>
 					<span id="typed"></span>
+				</div>
+				<div>
+					I have a PhD in Textual Criticism and Philology and a Master's Degree in Digital Humanities.
+					<br>
+					My research focuses on developing tools for digital scholarly editing and digital scholarly editions of Italian and Romance texts.					
 				</div>
 			</div>
 			<div id="contacts">
@@ -60,11 +57,128 @@
 				</a>
 			</div>
 		</section>
-		<!-- <script src="dist/reveal.js"></script> -->
-		<!-- <section id="CV"></section>
+		<section id="CV">
+			<div>
+				<h1>Chiara Martignano</h1>
+				<img/>
+				<div id="summary"></div>
+				<div>
+					<h2>Soft skills</h2>
+					<h2>Languages</h2>
+				</div>
+			</div>
+			<div>
+				<h2>Work experience</h2>
+				<div class="cards">
+					<div class="card">
+						<div class="workplace-logo">
+						<img src="./img/unive.png"/>
+						</div>
+						<div class="card-title">
+							<h3>Research fellow</h3>
+						</div>
+						<div class="card-body">
+							<p>University Ca' Foscari of Venice</p>
+							<p>August 2024 - current</p>
+							<p></p>
+						</div>
+						<div class="card-actions"></div>
+					</div>
+					<div class="card">
+						<div class="workplace-logo">
+							<img src="./img/arsnova.png"/>
+							<img src="./img/unifi.png"/>
+						</div>
+						<div class="card-title">
+							<h3>Research fellow</h3>
+						</div>
+						<div class="card-body">
+							<p><em>University of Florence</em></p>
+							<p>January 2019 - July 2024</p>
+							<p>I designed and coordinated the development of
+								the database and developed the digital scholarly
+								editions of the ERC-funded European Ars Nova
+								project.</p>
+						</div>
+						<div class="card-actions"></div>
+					</div>
+					<div class="card">
+						<div class="workplace-logo">
+							<img src="./img/cafoscari.png"/>
+						</div>
+						<div class="card-title">
+							<h3>Collaborator</h3>
+						</div>
+						<div class="card-body">
+							<p><em>University Ca' Foscari of Venice</em></p>
+							<p>October 2018 - December 2018</p>
+							<p>I adapted the software EVT to the scientific goals
+								of the digital edition of <em>Le Devisement dou monde</em>,
+								by implementing new custom features and optimizing data
+								visualization.</p>
+						</div>
+						<div class="card-actions">
+							<a>
+								<img/>
+							</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="workplace-logo">
+							<img src="./img/sismel.png"/>
+						</div>
+						<div class="card-title">
+							<h3>ZKS' Scholarship holder</h3>
+						</div>
+						<div class="card-body">
+							<p>Società Internazionale per lo Studio del Medioevo Latino (Florence)</p>
+							<p>October 2017 - September 2018</p>
+							<p>I designed and developed a front-end application that helps maintaining the URLs stored
+								in the AIML (Archivio Integrato del Medioevo
+								Latino) database.</p>
+						</div>
+						<div class="card-actions"></div>
+					</div>
+					<div class="card">
+						<div class="workplace-logo">
+						<img src="./img/evt.png"/>
+						</div>
+						<div class="card-title">
+							<h3>Development Contributor</h3>
+						</div>
+						<div class="card-body">
+							<p>Edition Visualization Technology (@ University
+								of Pisa)</p>
+								<p>June 2016 - July 2017</p>
+							<p>As part of my master thesis, I designed and developed new features for the
+								software EVT, in order to support complex
+								critical apparati and to enhance user
+								experience.</p>
+						</div>
+						<div class="card-actions"></div>
+					</div>
+				</div>
+				<h2>Education</h2>
+				<div class="cards">
+					<div class="card">
+						<div class="workplace-logo">
+						<img src="./img/cafoscari.png"/>
+						</div>
+						<div class="card-title">
+							<h3>Contributor</h3>
+						</div>
+						<div class="card-body"></div>
+						<div class="card-actions"></div>
+					</div>
+				</div>
+				<div>
+					<h2>Skills</h2>
+				</div>
+			</div>
+		</section>
 		<section id="portfolio"></section>
 		<section id="news"></section>
-		<footer></footer> -->
+		<footer></footer>
 		  
 
 			<!-- Load library from the CDN -->
@@ -74,7 +188,8 @@
 			<script>
 				var typed = new Typed('#typed', {
 					stringsElement: '#typed-strings',
-					typeSpeed: 85,
+					typeSpeed: 50,
+					startDelay: 500
 					// loop: true
 				});
 			</script>

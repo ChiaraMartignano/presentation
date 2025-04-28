@@ -49,3 +49,24 @@ section {
 
 	}
 }
+
+.cards {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.card {
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	-webkit-box-shadow: 4px 4px 8px 2px #595959; 
+box-shadow: 4px 4px 8px 2px #595959;
+	margin: 1em;
+	max-width: 400px;
+}
+
+.workplace-logo {
+	/* float: left; */
+	display: block;
+}
