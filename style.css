@@ -51,7 +51,10 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
 
+#bio > div {
+	margin-bottom: 0.5em;
 }
 
 #contacts {
@@ -101,4 +104,9 @@ section {
 	-webkit-box-shadow: 4px 4px 8px 2px #595959; 
 	box-shadow: 4px 4px 8px 2px #595959;
 	border-radius: 50%;
+}
+
+.hi {
+	background-color: #45ec9877;
+	text-decoration: underline #45ec98;
 }
