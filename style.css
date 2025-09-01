@@ -8,13 +8,18 @@ body {
 	margin: 0;
 	border: 0;
 	padding: 0;
+	height: calc(100vh);
+	width: calc(100vw);
+	overflow: auto;
+	background-color: white;
+	/* background-color: #99ffcc; */
+	align-content: center;
 }
 
 #navbar {
 	width: 100%;
 	margin: 0;
 	padding: 20px;
-	position: fixed;
 	background-color: white;
 	top: 0;
 	left: 0;
@@ -33,10 +38,6 @@ section {
 	margin: 0;
 	border: 0;
 	padding: 40px;
-	height: calc(100vh - 80px);
-	width: calc(100vw - 80px);
-	overflow: auto;
-	background-color: #99ffcc;
 }
 
 #main_section {
@@ -55,6 +56,11 @@ section {
 
 #bio > div {
 	margin-bottom: 0.5em;
+}
+
+#name {
+	color: #45ec98;
+	font-weight: bolder;
 }
 
 #contacts {
@@ -94,16 +100,17 @@ section {
 	align-content: center;
 	> img {
 		padding: 5px;
+		background-color: #45ec98;
+		border-radius: 50%;
 	};
   transition: 0.3s;
-	
 }
 
 .icon-link > img:hover {
-  background-color: #45ec98;
 	-webkit-box-shadow: 4px 4px 8px 2px #595959; 
 	box-shadow: 4px 4px 8px 2px #595959;
-	border-radius: 50%;
+	/* border-radius: 50%; */
+
 }
 
 .hi {
