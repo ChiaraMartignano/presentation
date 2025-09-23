@@ -11,7 +11,7 @@ body {
 	height: calc(100vh);
 	width: calc(100vw);
 	overflow: auto;
-	background-color: black;
+	background-color: white;
 	/* background-color: #99ffcc; */
 	align-content: center;
 }
@@ -38,20 +38,11 @@ section {
 	margin: 0;
 	border: 0;
 	padding: 40px;
-	color: white;
 }
 
 #main_section {
 	display: flex;
-	flex-direction: column;
-	text-align: center;
-	margin: auto;
-	h1 {
-		font-size: 50px;
-	}
-	a {
-		color: white;
-	}
+	flex-direction: row;
 }
 
 #bio {
