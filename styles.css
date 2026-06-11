@@ -25,7 +25,7 @@ html {
 /* --- Accessibilità (Skip Link & Focus) --- */
 .skip-link {
     position: absolute;
-    top: -40px;
+    top: -50px;
     left: 0;
     background: var(--accent-color);
     color: white;
