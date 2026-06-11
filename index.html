@@ -1,265 +1,141 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiara Martignano - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
 
-		<title>Chiara Martignano's personal website</title>
-		<!-- <a href="https://www.flaticon.com/free-icons/scholar" title="scholar icons">Scholar icons created by meaicon - Flaticon</a> -->
-		<!-- <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a> -->
-		<!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a> -->
-		<!-- <a href="https://www.flaticon.com/free-icons/thesis" title="thesis icons">Thesis icons created by Freepik - Flaticon</a> -->
-		<!-- <a href="https://www.flaticon.com/free-icons/publication" title="publication icons">Publication icons created by Anggara - Flaticon</a> -->
-		<!-- <a href="https://www.flaticon.com/free-icons/eye" title="eye icons">Eye icons created by torskaya - Flaticon</a> -->
-		<!-- a href="https://www.flaticon.com/free-icons/mail" title="mail icons">Mail icons created by Freepik - Flaticon</a -->
-		<!-- a href="https://www.flaticon.com/free-icons/location-pin" title="location pin icons">Location pin icons created by Pixel perfect - Flaticon</a -->
-		 <!--a href="https://www.flaticon.com/free-icons/curriculum" title="curriculum icons">Curriculum icons created by Freepik - Flaticon</a-->
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<!-- <div id="navbar">
-			<h1>Chiara Martignano</h1>
-			<nav>
-				<a href="#CV">CV</a>
-				<a href="#portfolio">Portfolio</a>
-				<a href="#news">News & Updates</a>
-			</nav>
-		</div> -->
-		<section id="main_section">
-			<div id="bio">
-				<div>
-					<!-- Element to contain animated typing -->
-					<div id="typed-strings">
-						<p><strong>Hi! I'm <span id="name">Chiara Martignano</span>,<br>research fellow at the University of Padua.</strong></p>
-					</div>
-					<span id="typed"></span>
-				</div>
-				<div>
-					I have a PhD in Textual Criticism and Philology and a Master's Degree in Digital Humanities.
-				</div>
-				<div>
-					My research focuses on <span id="typed-strings"><span><strong class="hi">digital philology</strong> and on developing <strong class="hi">web applications for digital scholarly editions</strong>.</span></span>
-				</div>
-			</div>
-			<div id="contacts">
-				<span>
-					<img src="./img/icons/location-pin.png" alt="Based in "/>
-					Rome, Italy.
-				</span>
-				<a class="icon-link" href="mailto:chiaramartignano@gmail.com">
-					<img src="./img/icons/mail.png" alt="mail icon" data-title="Contact me"/>
-				</a>
-				<a class="icon-link" href="https://orcid.org/0000-0002-8984-9574" target="_blank" aria-label="ORCID">
-					<img src="./img/icons/ORCID.png" alt="ORCID"/>
-				</a>
-				<a class="icon-link" href="https://scholar.google.it/citations?user=Hzp1CV4AAAAJ&hl=it" target="_blank" aria-label="Google Scholar">
-					<img src="./img/icons/student.png" alt="Google Scholar"/>
-				</a>
-				<a class="icon-link" href="https://www.linkedin.com/in/chiara-martignano/?locale=en_US" target="_blank" aria-label="LinkedIn">
-					<img src="./img/icons/linkedin.png" alt="LinkedIn"/>
-				</a>
-				<a class="icon-link" href="https://github.com/ChiaraMartignano" target="_blank" aria-label="GitHub">
-					<img src="./img/icons/github.png" alt="GitHub"/>
-				</a>
-				<a class="icon-link" href="./CV/CV_Chiara_Martignano.pdf" target="_blank">
-					<img src="./img/icons/curriculum-vitae.png" alt="CV"/>
-				</a>
-			</div>
-		</section>
-		<!-- <section id="CV">
-			<div>
-				<h1>Chiara Martignano</h1>
-				<img/>
-				<div id="summary"></div>
-				<div>
-					<h2>Soft skills</h2>
-					<h2>Languages</h2>
-				</div>
-			</div>
-			<div>
-				<h2>Work experience</h2>
-				<div class="cards">
-					<div class="card">
-						<div class="workplace-logo">
-						<img src="./img/unive.png"/>
-						</div>
-						<div class="card-title">
-							<h3>Research fellow</h3>
-						</div>
-						<div class="card-body">
-							<p>University Ca' Foscari of Venice</p>
-							<p>August 2024 - current</p>
-							<p></p>
-						</div>
-						<div class="card-actions"></div>
-					</div>
-					<div class="card">
-						<div class="workplace-logo">
-							<img src="./img/arsnova.png"/>
-							<img src="./img/unifi.png"/>
-						</div>
-						<div class="card-title">
-							<h3>Research fellow</h3>
-						</div>
-						<div class="card-body">
-							<p><em>University of Florence</em></p>
-							<p>January 2019 - July 2024</p>
-							<p>I designed and coordinated the development of
-								the database and developed the digital scholarly
-								editions of the ERC-funded European Ars Nova
-								project.</p>
-						</div>
-						<div class="card-actions"></div>
-					</div>
-					<div class="card">
-						<div class="workplace-logo">
-							<img src="./img/cafoscari.png"/>
-						</div>
-						<div class="card-title">
-							<h3>Collaborator</h3>
-						</div>
-						<div class="card-body">
-							<p><em>University Ca' Foscari of Venice</em></p>
-							<p>October 2018 - December 2018</p>
-							<p>I adapted the software EVT to the scientific goals
-								of the digital edition of <em>Le Devisement dou monde</em>,
-								by implementing new custom features and optimizing data
-								visualization.</p>
-						</div>
-						<div class="card-actions">
-							<a>
-								<img/>
-							</a>
-						</div>
-					</div>
-					<div class="card">
-						<div class="workplace-logo">
-							<img src="./img/sismel.png"/>
-						</div>
-						<div class="card-title">
-							<h3>ZKS' Scholarship holder</h3>
-						</div>
-						<div class="card-body">
-							<p>Società Internazionale per lo Studio del Medioevo Latino (Florence)</p>
-							<p>October 2017 - September 2018</p>
-							<p>I designed and developed a front-end application that helps maintaining the URLs stored
-								in the AIML (Archivio Integrato del Medioevo
-								Latino) database.</p>
-						</div>
-						<div class="card-actions"></div>
-					</div>
-					<div class="card">
-						<div class="workplace-logo">
-							<img src="./img/evt.png"/>
-						</div>
-						<div class="card-title">
-							<h3>Development Contributor</h3>
-						</div>
-						<div class="card-body">
-							<p>Edition Visualization Technology (@ University
-								of Pisa)</p>
-								<p>June 2016 - July 2017</p>
-							<p>As part of my master thesis, I designed and developed new features for the
-								software EVT, in order to support complex
-								critical apparati and to enhance user
-								experience.</p>
-						</div>
-						<div class="card-actions"></div>
-					</div>
-				</div>
-				<h2>Education</h2>
-				<div class="cards">
-					<div class="card">
-						<div class="workplace-logo">
-						<img src="./img/unisi.png"/>
-						</div>
-						<div class="card-title">
-							<h3>PhD in Philology and Textual Criticism</h3>
-						</div>
-						<div class="card-body">
-							<p><em>University of Siena</em></p>
-							<p>October 2019 - November 2024</p>
-							<p>Thesis: <em>Un modello concettuale per le edizioni critiche digitali</em></p>
-						</div>
-						<div class="card-actions">
-							<a class="icon-link" href="https://hdl.handle.net/11365/1248394" target="_blank" aria-label="Link to thesis" title="Read thesis online">
-								<img src="./img/icons/learning.png"/>
-							</a>
-						</div>
-					</div>
-					<div class="card">
-						<div class="workplace-logo">
-						<img src="./img/unipi.png"/>
-						</div>
-						<div class="card-title">
-							<h3>Master's Degree in Digital Humanities</h3>
-						</div>
-						<div class="card-body">
-							<p><em>University of Pisa</em></p>
-							<p>October 2014 - July 2017</p>
-							<p>Thesis: <em>Progettazione e sviluppo di un apparato critico modellato sulla tradizione a stampa in EVT</em></p>
-						</div>
-						<div class="card-actions">
-							<a class="icon-link" href="https://etd.adm.unipi.it/t/etd-06132017-202934" target="_blank" aria-label="Link to thesis" title="Read thesis online">
-								<img src="./img/icons/learning.png"/>
-							</a>
-						</div>
-					</div>
-					<div class="card">
-						<div class="workplace-logo">
-						<img src="./img/unipd.png"/>
-						</div>
-						<div class="card-title">
-							<h3>Bachelor Degree in Modern Literature</h3>
-						</div>
-						<div class="card-body">
-							<p><em>University of Padua</em></p>
-							<p>October 2011 - September 2014</p>
-							<p>Thesis: <em>Impressioni di una copista digitale</em></p>
-						</div>
-					</div>
-				</div>
-				<div>
-					<h2>Skills</h2>
-				</div>
-			</div>
-		</section> -->
-		<!-- <section id="portfolio">
-			<div class="cards">
-				<div class="card">
-					<div class="card-title">
-						<h3>Master's Degree in Digital Humanities</h3>
-					</div>
-					<img/>
-					<div class="card-body">
-						<p><em>University of Pisa</em></p>
-						<p>October 2014 - July 2017</p>
-						<p>Thesis: <em>Progettazione e sviluppo di un apparato critico modellato sulla tradizione a stampa in EVT</em></p>
-					</div>
-					<div class="card-actions">
-						<a class="icon-link" href="https://etd.adm.unipi.it/t/etd-06132017-202934" target="_blank" aria-label="Link to thesis" title="Read thesis online">
-							<img src="./img/icons/learning.png"/>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="news"></section>
-		<footer></footer> -->
-		  
+    <!-- Link di salto per utenti con screen reader / tastiera -->
+    <a href="#main-content" class="skip-link">Salta al contenuto principale</a>
 
-			<!-- Load library from the CDN -->
-			<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-		
-			<!-- Setup and start animation! -->
-			<script>
-				var typed = new Typed('#typed', {
-					stringsElement: '#typed-strings',
-					typeSpeed: 50,
-					startDelay: 500
-					// loop: true
-				});
-			</script>
-		</body>
-	</body>
+    <!-- Navigazione fissa -->
+    <header class="main-header">
+        <nav aria-label="Navigazione principale">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#events">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenuto Principale SPA -->
+    <main id="main-content" class="container">
+        
+        <!-- SEZIONE 1: Landing Page -->
+         <section id="home" class="fullscreen-section" aria-label="Home">
+            <div class="section-content">
+                
+                <div class="typing-container" aria-live="polite">
+                    <p class="h1-style">
+                        Hi! I'm <span id="name">Chiara Martignano</span>,<br>
+                        <span id="typed-text"></span><span class="cursor" aria-hidden="true">|</span>
+                    </p>
+                </div>
+
+                <div id="fade-in-blocks" class="hidden">
+                    <div class="bio-block">
+                        I have a PhD in Textual Criticism and Philology and a Master's Degree in Digital Humanities.
+                    </div>
+                    <div class="bio-block">
+                        My research focuses on <strong class="hi">digital philology</strong> and on developing <strong class="hi">web applications for digital scholarly editions</strong>.
+                    </div>
+                </div>
+                <div>
+					<strong>Based in Rome, Italy.</strong>
+				</div>
+                
+                <div class="social-links">                    
+                    <a href="mailto:chiaramartignano@gmail.com" aria-label="Send email">Email</a>
+                    <a href="https://orcid.org/0000-0002-8984-9574" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile">ORCID</a>
+                    <a href="https://github.com/ChiaraMartignano" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+                    <a href="./CV/CV_Chiara_Martignano.pdf" target="_blank" rel="noopener noreferrer" aria-label="Full CV">CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEZIONE 2: Current Projects -->
+        <section id="projects" class="fullscreen-section" aria-label="Progetti Correnti">
+            <div class="section-content">
+                <h2>Current Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3><a href="https://dissgea.unipd.it/ricerca/progetti-di-ricerca/research-projects-funded-mur" target="_blank">CoMByN</a></h3>
+                        <p>I work as the <strong>digital humanist</strong> of the FIS "The construction of Collective Memory in Byzantium: Towards a Network of Byzantine compilation literature across Europe and the Mediterranean" project.
+                            I am developing the <strong>digital synoptic edition</strong> of the <em>Loci Communes</em> and designing the <strong>manuscripts catalogue</strong>.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3><a href="https://evt-project.github.io/" target="_blank">EVT (Edition Visualization Technology)</a></h3>
+                        <p>I am part of EVT's development team. I have mostly worked on <strong>EVT 2</strong>, using <strong>AngularJS</strong>, to develop new features to optimise the consultation of the <strong>critical apparatus</strong>.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3><a href="https://wg-vidit.github.io/" target="_blank">VIDIT (Visualizing and Investigating Differences in Texts)</a></h3>
+                        <p>I am one of the <strong>"best practices" subgroup</strong>'s coordinators, which focuses on creating <strong>recommendations</strong> to guide the development of visualisation software tools.</p>
+                    </article>
+                    <article class="project-card">
+                        <h3><a href="https://chiaramartignano.github.io/DSETools/" target="_blank">DSETools</a></h3>
+                        <p>My main independent research project is a <strong>catalogue</strong> of software tools for <strong>digital philology</strong>, developed according to the <strong>FAIR</strong> principles. It allows scholars to identify tools and workflows they can use for their own <strong>digital edition projects</strong>.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEZIONE 3: Latest Publications -->
+        <section id="publications" class="fullscreen-section" aria-label="Ultime Pubblicazioni">
+            <div class="section-content">
+                <h2>Latest Publications</h2>
+                <ul class="publications-list">
+                    <li>
+                        <strong>THE ATLAS WHITEBOOK AND GUIDELINES</strong><br>
+                        Martignano et al. 2026. Bologna: Associazione per l’Informatica Umanistica e le Culture Digitali – AIUCD, p. 203. In: <em>Quaderni di Umanistica Digitale</em>. ISBN 979-12-986188-0-0. DOI
+                        <a href="https://doi.org/10.6092/unibo%2Famsacta%2F8808" target="_blank">10.6092/unibo/amsacta/8808</a>.
+                    </li>
+                    <li>
+                        <strong> A catalogue of software tools for digital scholarly editing</strong><br>
+                        Martignano, Chiara. 2025. <em>Umanistica Digitale</em> 9(19), 1–15.
+                        <a href="https://doi.org/10.6092/issn.2532-8816/21093" target="_blank">https://doi.org/10.6092/issn.2532-8816/21093</a>.
+                    </li>
+                    <li>
+                        <strong>Critical Edition Ontology: A Conceptual Model for Digital Critical Editions</strong><br>
+                        Martignano, Chiara. 2024. <em>Umanistica Digitale</em> 8 (17):71-94.
+                        <a href="https://doi.org/10.6092/issn.2532-8816/19469" target="_blank">https://doi.org/10.6092/issn.2532-8816/19469</a>.
+                    </li>
+                </ul>
+                <a href="https://scholar.google.it/citations?user=Hzp1CV4AAAAJ&hl=it" class="btn-scholar" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile">See all on Google Scholar</a>
+            </div>
+        </section>
+
+        <!-- SEZIONE 4: Upcoming Events -->
+        <section id="events" class="fullscreen-section" aria-label="Prossimi Eventi">
+            <div class="section-content">
+                <h2>Upcoming Events</h2>
+                <div class="events-list">
+                    <article class="event-item">
+                        <time datetime="2026-09-15">2-4 September 2026, Wuppertal (Germany)</time>
+                        <h3>Conference: Editopia. On the Future of Documentology and Scholarly Editing in the Post-Digital Age</h3>
+                        <p>Presentation of the paper "The Interface as an Epistemic Requirement: Addressing Information Overcrowding and Accessibility in EVT 3".</p>
+                    </article>
+                    <article class="event-item">
+                        <time datetime="2026-11-02">23-25 September 2026, Bologna (Italy)</time>
+                        <h3>SIFR 2026 Conference: Metodi, strumenti e nuove ricerche per la Filologia romanza: ecdotica, linguistica, letteratura</h3>
+                        <p>Presentation of the paper "Mappare gli strumenti digitali per la filologia romanza: il catalogo DSETools"</p>
+                    </article>
+                    <article class="event-item">
+                        <time datetime="2026-11-02">13-14 November 2026, Paris</time>
+                        <h3>Workshop Stabiliser l’instable: modèles, outils et pratiques de l’édition numérique</h3>
+                        <p>Presentation of the paper "DSETools: an Observatory of Tools, Practices, and Workflows for Digital Scholarly Editing"</p>
+                    </article>
+                </div>
+                <a href="https://www.linkedin.com/in/chiara-martignano/?locale=en_US" class="btn-scholar" target="_blank" rel="noopener noreferrer" aria-label="See my Linkedin profile">See all news on LinkedIn</a>
+            </div>
+        </section>
+
+    </main>
+
+</body>
 </html>
